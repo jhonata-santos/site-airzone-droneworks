@@ -21,6 +21,8 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/about.css" rel="stylesheet" />
         <link href="css/services.css" rel="stylesheet" />
+        <link href="css/contact.css" rel="stylesheet" />
+        <link href="css/footer.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -36,7 +38,7 @@
                         <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,10 +60,11 @@
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <h2 class="section-title mb-2 h1">SOBRE</h2>
+                    <p class="text-center text-white-50 h5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div class="col-lg-4">
                         <div>
                             <h4 class="text-white mb-4">AIRZONE DRONEWORKS</h4>
-                            <h6 class="text-white mb-4">SOBRE</h6>
                             <p class="text-white-50 paragraph-margin-custom">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
@@ -102,15 +105,15 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p class="paragraph-margin-custom"><img class=" img-fluid" src="assets/img/jhonata-profile.jpeg" alt="card image"></p>
+                                            <p class="text-center paragraph-margin-custom"><img class=" img-fluid" src="assets/img/jhonata-profile.jpeg" alt="card image"></p>
                                             <h4 class="card-title">Jhonata Santos</h4>
-                                            <p class="card-text text-white-50 paragraph-margin-custom">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <p class="text-center card-text text-white-50 paragraph-margin-custom">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body mt-4">
                                             <h4 class="card-title">Jhonata Santos</h4>
                                             <p class="card-text paragraph-margin-custom">
                                                 There are many variations of passages of Lorem Ipsum available, but the majority have 
@@ -145,9 +148,9 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p class="paragraph-margin-custom"><img class=" img-fluid" src="assets/img/vinicius-profile.jpeg" alt="card image"></p>
+                                            <p class="text-center paragraph-margin-custom"><img class=" img-fluid" src="assets/img/vinicius-profile.jpeg" alt="card image"></p>
                                             <h4 class="card-title">Vinicius Renovato</h4>
-                                            <p class="card-text text-white-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <p class="text-center card-text text-white-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,10 +190,11 @@
             </div>
         </section>
         <!-- /About section -->
-        <img class="img-fluid" src="assets/img/separator-01.jpg" id="services" alt="..." />
+        
+        <img class="img-fluid" src="assets/img/separator-01.jpg" alt="..." />
 
         <!-- Services -->
-        <section class="projects-section bg-light config-panding-section" >
+        <section id="services" class="bg-light">
             <div class="container px-4 px-lg-5">
                 <div id="what-we-do" class="text-muted">
                     <h2 class="section-title mb-2 h1">SERVIÇOS</h2>
@@ -271,13 +275,74 @@
         <!-- /Services section -->
 
         <!-- Contact-->
-        <section class="contact-section bg-black">
-            
+        <section class="contact bg-light" id="contact">
+            <div class="container">
+                <h2 class="section-title mb-2 h1">CONTATO</h2>
+                <p class="text-center text-muted h5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="main wow fadeInUp mt-5" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="row">
+                        <div class="col-lg-8 left">
+                            <form class="contact-form" action="index.html" method="POST">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" name="name" class="form-control" placeholder="Nome completo">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="email" name="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" name="phone" class="form-control" placeholder="Telefone">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" name="subject" class="form-control" placeholder="Assunto">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Mensagem"></textarea>
+                                </div>
+                                <button class="btn btn-block" type="submit" name="submit">Enviar</button>
+                            </form>
+                        </div>
+                        <!-- Left -->
+                        <div class="col-lg-4">
+                            <div class="text-center  right">
+                                <h4>Vamos falar sobre seu projeto?</h4>
+                                <div class="info d-flex align-items-center">
+                                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                    <span>Whatsapp: (11)99999-9999</span>
+                                </div>
+                                <div class="info d-flex align-items-center">
+                                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                    <span>Whatsapp: (11)99999-9999</span>
+                                </div>
+                                <div class="info d-flex align-items-center">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span>airzonedroneworks@domain.com</span>
+                                </div>
+                                <div class="social">
+                                    <p class="text-center h5">Acesse nossas redes para ver mais imagens dos nossos trabalhos.</p>
+                                    <a target="_blank"  href="https://www.facebook.com/airzonedronework">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a target="_blank" href="https://www.instagram.com/airzonedroneworks/">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <img class="img-fluid" src="assets/img/separator.png" id="services" alt="..." />
 
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50">
-            <div class="container px-4 px-lg-5">Copyright &copy; Airzone Droneworks 2021</div>
+            <div class="container px-4 px-lg-5">Copyright &copy; 2021 | Airzone Droneworks 
+            <div class="footer-opacity">Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/jhonata-santos-0a524348/">Jhonata Santos</a></div>
         </footer>
 
         <!-- Bootstrap core JS-->

@@ -132,7 +132,7 @@ p {
 }
 
 section {
-	padding: 65px 0;
+	padding: 160px 0;
 }
 
 abbr[title],
@@ -4053,7 +4053,7 @@ textarea.form-control-lg {
 
 .navbar {
   position: relative;
-  display: flex;
+  display: inherit;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -4067,8 +4067,8 @@ textarea.form-control-lg {
 .navbar > .container-lg,
 .navbar > .container-xl,
 .navbar > .container-xxl {
-  display: flex;
-  flex-wrap: inherit;
+  display: inherit;
+  flex-wrap: initial;
   align-items: center;
   justify-content: space-between;
 }
@@ -4376,8 +4376,6 @@ textarea.form-control-lg {
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
 }
 .card > hr {
   margin-right: 0;
@@ -4408,6 +4406,7 @@ textarea.form-control-lg {
 
 .card-title {
   margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 .card-subtitle {
@@ -5343,10 +5342,13 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
+  margin-top: 5rem;
 }
-.toast:not(.showing):not(.show) {
+
+/* .toast:not(.showing):not(.show) {
   opacity: 0;
-}
+} */
+
 .toast.hide {
   display: none;
 }
@@ -7205,6 +7207,7 @@ textarea.form-control-lg {
 
 .ms-auto {
   margin-left: auto !important;
+  text-align: center;
 }
 
 .p-0 {
@@ -7563,7 +7566,7 @@ textarea.form-control-lg {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255 255 255 / 65%) !important;
 }
 
 .text-reset {
@@ -11059,36 +11062,40 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: #ffffff00;
     transition: background-color 0.3s ease-in-out;
+    /* border-bottom: 2px solid black; */
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(0 0 0);
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 1.5rem 1.5rem;
+    color: #333;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Ghostbusters;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #007ecb;
   }
   #mainNav .nav-link:active {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #323232;
+    background-color: #ffffffed;
     border-bottom: 2px solid black;
     opacity: 0.9;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #fff;
+    color: rgb(0 0 0);
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
+    font-weight: 700;
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #007ecb;
@@ -11119,7 +11126,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.7) 90%, #000 100%), url("../assets/img/background-header/background-01.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 45%, rgba(0, 0, 0, 0.7) 80%, #000 98%), url("../assets/img/background-header/background-01.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11162,10 +11169,10 @@ body {
 }
 
 .about-section {
-  background: #000;
+  background: #353637;;
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .projects-section {

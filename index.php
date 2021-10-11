@@ -4,7 +4,7 @@
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="description" content="Airzone Droneworks - Filmagens e fotos aéreas em alta definicição. Empresa que atua com drones utilizando as melhores tecnologias parta captação de imagens incríveis. ">
-    <meta name="keywords" content="drone, aérea, fotos, imagens aereas, imagem aérea, fotos aereas, filmagem aerea, filmagem aérea, image, images, imagens, fotografia aérea, fotografia, filmagens aéreas, filmagem drone, foto drone, filmagem com drone, foto com drone, filmagem aérea drone, foto aéria drone, filmagem aérea com drone, foto aérea com drone, drone images, drone produções, drone filmes, drone filmagens">
+    <meta name="keywords" content="drone, aérea, fotos, imagens aereas, imagem aérea, fotos aereas, filmagem aerea, filmagem aérea, image, images, imagens, fotografia aérea, fotografia, filmagens aéreas, filmagem drone, foto drone, filmagem com drone, foto com drone, filmagem aérea drone, foto aéria drone, filmagem aérea com drone, foto aérea com drone, drone images, drone produções, drone filmes, drone filmagens, são paulo, sp, brasil">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
     <!-- Title browser -->
@@ -30,7 +30,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-Z8484WFTMZ');
     </script>
   </head>
@@ -39,15 +38,15 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top"><img class="logo-adjust" src="assets/img/logo/logotipo.png" alt="logotipo airzonedroneworks"></a>
         <button class="navbar-toggler navbar-toggler-right pull-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse pull-right" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#page-top">Bem vindo
+            </a></li>
             <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">Servicos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
           </ul>
         </div>
@@ -56,11 +55,15 @@
     <!-- END navigation -->
 
     <!-- Background video -->
-    <div id="background-video">
-      <video autoplay muted loop>
-        <source src="assets/movie/background.mp4" type="video/mp4"> 
-      </video>
-    </div>
+    <section class="showcase">
+			<div class="video-container">
+				<video src="assets/movie/background.mp4" autoplay muted loop></video>
+			</div>
+			<div class="content">
+        <img src="assets/img/logo/logotipo_airzone_oficial.png" alt="welcome-logo" class="welcome-logo">
+        <div class="subtitle-main">Sua história vista de uma outra perspectiva!</div>
+			</div>
+		</section>
     <!-- END background -->
 
     <!-- Toast send email -->
@@ -80,37 +83,37 @@
     <section class="about-section text-center" id="about">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
-          <h2 class="section-title mb-2 h1 text-white">SOBRE</h2>
-          <p class="text-center text-white-50 h5">Sua história vista de uma outra perspectiva!</p>
+          <h2 class="section-title mb-2 h1">SOBRE</h2>
+          <p class="text-center text-muted h5">Somos uma produtora de imagens aéras!</p>
           <div class="col-lg-6">
             <div>
-              <h4 class="text-white mb-4">AIRZONE DRONEWORKS</h4>
-              <p class="text-white-50 paragraph-margin-custom">
+              <h4 class="section-title mb-4">AIRZONE DRONEWORKS</h4>
+              <p class="text-muted paragraph-margin-custom">
                 Fundada em Abril de 2021 por dois amigos entusiastas do mundo dos drones, 
                 a Airzone Droneworks surgiu com o propósito de oferecer serviços de qualidade 
                 no ramo de vídeos e imagens aéreas, para valorizar e enriquecer ainda mais o seu 
                 empreendimento de uma perspectiva diferenciada.
               </p>
-              <p class="text-white-50 paragraph-margin-custom">
+              <p class="text-muted paragraph-margin-custom">
                 Nos últimos anos, o advento da fotografia com Drones explodiu em popularidade. Desde então, 
-                a quantidade de opções disponíveis quando se trata de fotografia aéreas, filmagens com Drones e produção de vídeos só aumentou.
-                Eleve suas necessidades para o próximo nível e entre em contato conosco para ajudá-lo a criar um 
+                a quantidade de opções disponíveis quando se trata de fotografias aéreas, filmagens com Drones e produção de vídeos só aumentou.
+                Elevar seu potencial para o próximo nível e entre em contato conosco para ajudarmos a criar um 
                 audiovisual excelente para todas as suas necessidades e eventos!
               </p>
             </div>
           </div>
           <div class="col-lg-6">
-            <h6 class="text-white mb-4">NOSSA MISSÃO</h6>
-            <p class="text-white-50 paragraph-margin-custom">
+            <h4 class="section-title mb-4">NOSSA MISSÃO</h4>
+            <p class="text-muted paragraph-margin-custom">
               Entregar um conteúdo que valorize cada aspecto de seu empreendimento ou evento, 
               destacando de forma objetiva suas principais características e qualidades.
             </p>
-            <h6 class="text-white mb-4">NOSSA VISÃO</h6>
-            <p class="text-white-50 paragraph-margin-custom">
+            <h4 class="section-title mb-4">NOSSA VISÃO</h4>
+            <p class="text-muted paragraph-margin-custom">
               Consolidar a nossa atuação como entidade de referência no nosso segmento de captação em imagens aéreas.
             </p>
-            <h6 class="text-white mb-4">NOSSOS VALORES</h6>
-            <p class="text-white-50 paragraph-margin-custom">
+            <h4 class="section-title mb-4">NOSSOS VALORES</h4>
+            <p class="text-muted paragraph-margin-custom">
               Qualidade, Transparência, Honestidade, Comprometimento, Inovação e Satisfação do Cliente.
             </p>
           </div>
@@ -118,85 +121,6 @@
       </div>
     </section>
     <!-- END about -->
-
-
-    <!-- <section style="background-color: #353637; padding: 10px !important">
-      <div class="container">
-      <div class="row">
-      <div class="col-lg-6">
-        <div class="frontside">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class="text-center paragraph-margin-custom"><img class=" img-fluid" src="assets/img/profile/jhonata-profile.jpeg" alt="card image"></p>
-              <h4 class="card-title">Jhonata Santos</h4>
-              <p class="text-center card-text text-white-50 paragraph-margin-custom">Piloto / Videomaker</p>
-            </div>
-
-            <div class="card-body text-white-50">
-              <p class="card-text paragraph-margin-custom">
-                Formado em Análise e Desenvolvimento de Sistemas e atuando com sistemas a mais de 5 anos, agora 
-                busca desbravar um mundo de conhecer novos lugares com muitas Fotográfias e Vídeos!
-              </p>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a class="social-icon text-xs-center" target="_blank" href="#">
-                    <a target="_blank" href="https://www.instagram.com/_jhoonsantoos/"><i class="fa fa-instagram"></i></i></a>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-icon text-xs-center" target="_blank" href="#">
-                    <a target="_blank" href="https://www.facebook.com/jhoonzeera"><i class="fa fa-facebook-f"></i></a>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-icon text-xs-center" target="_blank" href="#">
-                    <a target="_blank" href="https://www.linkedin.com/in/jhonata-santos-0a524348/"><i class="fa fa-linkedin"></i></a>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="frontside">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class="text-center paragraph-margin-custom"><img class=" img-fluid" src="assets/img/profile/vinicius-profile.jpeg" alt="card image"></p>
-              <h4 class="card-title">Vinicius Renovato</h4>
-              <p class="text-center card-text text-white-50 paragraph-margin-custom">Piloto / Videomaker</p>
-            </div>
-
-            <div class="card-body text-white-50">
-              <p class="card-text paragraph-margin-custom">
-                There are many variations of passages of Lorem Ipsum available, but the majority have 
-                suffered alteration in some form, by injected humour, or randomised words which don't look 
-                even slightly believable.
-              </p>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a class="social-icon text-xs-center" target="_blank" href="#">
-                    <a target="_blank" href="https://www.instagram.com/renovato.vini/"><i class="fa fa-instagram"></i></i></a>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-icon text-xs-center" target="_blank" href="#">
-                    <a target="_blank" href="https://www.facebook.com/vini.renovato"><i class="fa fa-facebook-f"></i></a>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-icon text-xs-center" target="_blank" href="#">
-                    <a target="_blank" href="https://www.linkedin.com/in/vinicius-renovato-34744785/"><i class="fa fa-linkedin"></i></a>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>     
-      </div>
-    </section> -->
 
     <!-- Services -->
     <section id="services" class="bg-white">

@@ -12,8 +12,6 @@ $(document).ready(function(){
   });
     
   function scrollToTop() {
-
-    
     verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
     element = $('body');
     $("html, body").animate({scrollTop: $("#page-top")}, 200, 'linear');

@@ -19,7 +19,7 @@
   // Email que receberá a mensagem
   $email_to = "contato@airzonedroneworks.com.br";
 
-  // Enviando email
+  // Enviando email para Airzone
   $status = mail($email_to, mb_encode_mimeheader($subject, "utf-8"), $body, $headers);
 
   if($status):

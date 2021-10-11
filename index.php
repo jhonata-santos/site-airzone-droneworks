@@ -3,10 +3,17 @@
   <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="Airzone Droneworks - Filmagens e fotos aéreas em alta definicição. Empresa que atua com drones utilizando as melhores tecnologias parta captação de imagens incríveis. ">
+    <meta name="description" content="Airzone Droneworks - Filmagens e fotos aéreas em alta definição. Empresa que atua com drones utilizando as melhores tecnologias parta captação de imagens incríveis.">
     <meta name="keywords" content="drone, aérea, fotos, imagens aereas, imagem aérea, fotos aereas, filmagem aerea, filmagem aérea, image, images, imagens, fotografia aérea, fotografia, filmagens aéreas, filmagem drone, foto drone, filmagem com drone, foto com drone, filmagem aérea drone, foto aéria drone, filmagem aérea com drone, foto aérea com drone, drone images, drone produções, drone filmes, drone filmagens, são paulo, sp, brasil">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
+    <meta property="og:title" content="Airzone Droneworks"/>
+    <meta property="og:url" content="https://airzonedroneworks.com.br/"/>
+    <meta property="og:description" content="Airzone Droneworks - Filmagens e fotos aéreas em alta definição. Empresa que atua com drones utilizando as melhores tecnologias parta captação de imagens incríveis.">
+    <meta property="og:image" content="assets/img/logo/logotipo_airzone_oficial_1.png">
+    <meta property="og:locale" content="pt_BR" />
+
+
     <!-- Title browser -->
     <title>Airzone Droneworks</title>
     

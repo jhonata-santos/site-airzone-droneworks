@@ -57,7 +57,7 @@
     <!-- Background video -->
     <section class="showcase">
 			<div class="video-container">
-				<video src="assets/movie/background.mp4" autoplay muted loop></video>
+				<video src="assets/movie/background.mp4" autoplay muted loop playsinline></video>
 			</div>
 			<div class="content">
         <img src="assets/img/logo/logotipo_airzone_oficial.png" alt="welcome-logo" class="welcome-logo">

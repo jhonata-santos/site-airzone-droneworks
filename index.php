@@ -30,6 +30,7 @@
     <link href="css/services.css" rel="stylesheet" />
     <link href="css/contact.css" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/team.css" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8484WFTMZ"></script>
@@ -53,6 +54,7 @@
             <li class="nav-item"><a class="nav-link" href="#page-top">Bem vindo
             </a></li>
             <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Time</a></li>
             <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
           </ul>
@@ -93,21 +95,19 @@
           <h2 class="section-title mb-2 h1">SOBRE</h2>
           <p class="text-center text-muted h5">Somos uma produtora de imagens aéras!</p>
           <div class="col-lg-6">
-            <div>
-              <h4 class="section-title mb-4">AIRZONE DRONEWORKS</h4>
-              <p class="text-muted paragraph-margin-custom">
-                Fundada em Abril de 2021 por dois amigos entusiastas do mundo dos drones, 
-                a Airzone Droneworks surgiu com o propósito de oferecer serviços de qualidade 
-                no ramo de vídeos e imagens aéreas, para valorizar e enriquecer ainda mais o seu 
-                empreendimento de uma perspectiva diferenciada.
-              </p>
-              <p class="text-muted paragraph-margin-custom">
-                Nos últimos anos, o advento da fotografia com Drones explodiu em popularidade. Desde então, 
-                a quantidade de opções disponíveis quando se trata de fotografias aéreas, filmagens com Drones e produção de vídeos só aumentou.
-                Elevar seu potencial para o próximo nível e entre em contato conosco para ajudarmos a criar um 
-                audiovisual excelente para todas as suas necessidades e eventos!
-              </p>
-            </div>
+            <h4 class="section-title mb-4">AIRZONE DRONEWORKS</h4>
+            <p class="text-muted paragraph-margin-custom">
+              Fundada em Abril de 2021 por dois amigos entusiastas do mundo dos drones, 
+              a Airzone Droneworks surgiu com o propósito de oferecer serviços de qualidade 
+              no ramo de vídeos e imagens aéreas, para valorizar e enriquecer ainda mais o seu 
+              empreendimento de uma perspectiva diferenciada.
+            </p>
+            <p class="text-muted paragraph-margin-custom">
+              Nos últimos anos, o advento da fotografia com Drones explodiu em popularidade. Desde então, 
+              a quantidade de opções disponíveis quando se trata de fotografias aéreas, filmagens com Drones e produção de vídeos só aumentou.
+              Elevar seu potencial para o próximo nível e entre em contato conosco para ajudarmos a criar um 
+              audiovisual excelente para todas as suas necessidades e eventos!
+            </p>
           </div>
           <div class="col-lg-6">
             <h4 class="section-title mb-4">NOSSA MISSÃO</h4>
@@ -128,6 +128,51 @@
       </div>
     </section>
     <!-- END about -->
+
+    <!-- Team -->
+    <section id="team">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <h2 class="section-title mb-2 h1">NOSSO TIME</h2>
+          <p class="text-center text-muted h5">Conheça as pessoas nas quais estão prontas para atende-lô!</p>
+          <div class="col-lg-6">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Michele Miller</h3>
+                <h4 class="title">Web Developer</h4>
+              </div>
+              <ul class="social">
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Patricia Knott</h3>
+                <h4 class="title">Web Developer</h4>
+              </div>
+              <ul class="social">
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END team -->
 
     <!-- Services -->
     <section id="services" class="bg-white">

@@ -1,6 +1,3 @@
-/**********************
-/***** Services *******
-/*********************/
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 section .section-title {
@@ -31,7 +28,7 @@ section .section-title {
 }
 
 #what-we-do .card .card-block {
-    position: relative;
+  position: relative;
 }
 
 #what-we-do .card .card-block a {
@@ -42,7 +39,6 @@ section .section-title {
 
 #what-we-do .card .card-block a i {
 	display:none;
-	
 }
 
 #what-we-do .card:hover .card-block a i {
@@ -52,11 +48,11 @@ section .section-title {
 
 #what-we-do .card .card-block:before {
 	font-family: FontAwesome;
-    position: inherit;
-    font-size: 39px;
-    color: #007ecb;
+  position: inherit;
+  font-size: 39px;
+  color: #007ecb;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
-    transition:transform .2s ease-in-out;
+  transition:transform .2s ease-in-out;
 }
 
 #what-we-do .card:hover .card-block:before {
